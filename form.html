@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang=“pt-BR”>
+
+<head>
+    <title>As maiores pandemias da história</title>
+    <link rel="stylesheet" href="style.css">
+    </link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="imagemdefundo">
+        <div id="form2">
+            <h2>Para entrar em contato com a gente preencha algumas informações e nos encaminhe sua mensagem</h2>
+            <form action="recebadados.html" method="get" enctype="multipart/form-data" autocomplete="on">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" placeholder="Digite seu nome aqui" required="required" />
+                <br /><br />
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Digite seu email aqui" required="required" />
+                <br /><br />
+
+                <label for="escolha">Tipo de contato:</label>
+                <select name="escolha">
+                    <option>Selecione...</option>
+                    <option>Sugestão</option>
+                    <option>Dúvida</option>
+                    <option>Elogio</option>
+                    <option>Reclamação</option>
+                    <option>Comunicar erro</option>
+
+                </select>
+                <br> <br>
+                <label for="texto">Digite sua mensagem:</label>
+                <br>
+                <textarea name="mensagem" placeholder="Sua mensagem" rows="5" cols="33" required="required"></textarea>
+
+                <br /><br />
+
+
+                <input type="submit" name="enviar" value="Enviar" />
+
+                <input type="reset" name="limpar" value="Limpar" />
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
