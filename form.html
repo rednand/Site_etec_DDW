@@ -13,41 +13,51 @@
 </head>
 
 <body>
-    <div id="imagemdefundo">
+    <div id="imagemdefundo2">
         <div id="form2">
-            <h2>Para entrar em contato com a gente preencha algumas informações e nos encaminhe sua mensagem</h2>
-            <form action="recebadados.html" method="get" enctype="multipart/form-data" autocomplete="on">
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" placeholder="Digite seu nome aqui" required="required" />
-                <br /><br />
-                <label for="email">Email</label>
-                <input type="email" name="email" placeholder="Digite seu email aqui" required="required" />
-                <br /><br />
+            <h2 id="font2">Para entrar em contato com a gente preencha algumas informações e nos encaminhe sua mensagem</h2>
+                <form class="font" action="recebadados.html" method="get" enctype="multipart/form-data" autocomplete="on">
+                    <label for="nome">Nome</label>
+                    <input  class="label1" type="text" name="nome" placeholder="Digite seu nome aqui" required="required" />
+                    <br /><br />
+                    <label for="email">Email</label>
+                    <input class="label1" type="email" name="email" placeholder="Digite seu email aqui" required="required" />
+                    <br /><br />
 
-                <label for="escolha">Tipo de contato:</label>
-                <select name="escolha">
-                    <option>Selecione...</option>
-                    <option>Sugestão</option>
-                    <option>Dúvida</option>
-                    <option>Elogio</option>
-                    <option>Reclamação</option>
-                    <option>Comunicar erro</option>
+                    <label for="escolha">Tipo de contato:</label>
+                    <select class="label2" name="escolha">
+                        <option>Selecione...</option>
+                        <option>Sugestão</option>
+                        <option>Dúvida</option>
+                        <option>Elogio</option>
+                        <option>Reclamação</option>
+                        <option>Comunicar erro</option>
 
-                </select>
-                <br> <br>
-                <label for="texto">Digite sua mensagem:</label>
-                <br>
-                <textarea name="mensagem" placeholder="Sua mensagem" rows="5" cols="33" required="required"></textarea>
+                    </select>
+                    <br> <br>
+                    <label  for="texto">Digite sua mensagem:</label>
+                    <br>
+                    <textarea class="label3" name="mensagem" placeholder="Sua mensagem" rows="5" cols="33"
+                        required="required"></textarea>
 
-                <br /><br />
+                    <br /><br />
 
 
-                <input type="submit" name="enviar" value="Enviar" />
+                    <input type="submit" name="enviar" value="Enviar" />
 
-                <input type="reset" name="limpar" value="Limpar" />
+                    <input type="reset" name="limpar" value="Limpar" />
 
-            </form>
+                    <h2 id="form2"> Nossa localização:</h2>
+                    <iframe id="mapacontato"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.9858242006935!2d-46.64937698497883!3d-23.533012266431168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce586a0e489ea5%3A0x52e0a1f522a53a5a!2sETEC%20SEBRAE!5e0!3m2!1spt-BR!2sbr!4v1624573774321!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+
+                </form>
+
+
         </div>
+     
     </div>
 </body>
 
